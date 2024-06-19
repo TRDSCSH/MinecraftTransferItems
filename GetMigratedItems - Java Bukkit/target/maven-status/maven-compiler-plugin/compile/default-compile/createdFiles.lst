@@ -1,0 +1,7 @@
+com\oftx\getmigrateditems\ItemsImmigrateInventoryViewHandler.class
+com\oftx\getmigrateditems\PlayerItemDataConfig.class
+com\oftx\getmigrateditems\ClickInventoryListener.class
+com\oftx\getmigrateditems\InventoryCloseEventListener.class
+com\oftx\getmigrateditems\GetMigratedItems.class
+com\oftx\getmigrateditems\XuidBindConfig.class
+com\oftx\getmigrateditems\WuPinCommand.class

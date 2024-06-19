@@ -1,0 +1,10 @@
+name: GetMigratedItems
+version: '${project.version}'
+main: com.oftx.getmigrateditems.GetMigratedItems
+api-version: '1.20'
+commands:
+  wupin:
+    description: '获取从基岩版导出的物品'
+    usage: |
+      /wupin bind <xuid> - 通过XUID绑定基岩版玩家
+      /wupin open - 查看从基岩版备份的物品
