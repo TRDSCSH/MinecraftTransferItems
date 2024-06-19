@@ -1,5 +1,5 @@
 用于从基岩版转换物品到 Java 版的插件，只能转移部分物品。  
-这里放了 2 个插件的源码，分别用于 LSE 和 Bukkit。  
+这里放了 2 个插件的源码，分别用于 [LSE](https://github.com/LiteLDev/LegacyScriptEngine) 和 Bukkit。  
 > 不要从这个项目的代码中学习，除非你很享受欣赏这个项目💩⛰️代码的过程  
 - - -
 使用方法：
