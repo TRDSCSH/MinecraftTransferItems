@@ -41,8 +41,12 @@ public class PlayerItemDataConfig {
     }
 
     public int getCurrentPageNumber(String playerUuid) {
-        final int page = currentPage.get(playerUuid);
-        return page <= 0 ? 1 : page;
+        try {
+            final int page = currentPage.get(playerUuid);
+            return page <= 0 ? 1 : page;
+        } catch (NullPointerException e) {
+            return 1;
+        }
     }
 
     public void pushToPlayerXuidMap(String playerUuid, String xuid) {
